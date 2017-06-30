@@ -9,7 +9,7 @@
 - Espaços ao invés de tabs
 - 3 espaços e indentação contextual
 - Sempre use notação húngara em nomes de variáveis
-- Evite nomes de variáveis como `nX` ou `nY`. Seja mais descritivo
+- Evite nomes de variáveis como `nX` ou `nY` (exceto para índices). Seja mais descritivo
 - Palavras-chave da linguagem devem usar **UpperCamelCase** (exemplos: `If`, `EndIf`, `While`)
 - Nomes de variáveis locais devem ser em **lowerCamelCase** (exemplos: `cName`, `nAge`)
 - Nomes de funções em notação húngara devem usar **lowerCamelCase** (exemplo: `aAdd`)
@@ -26,12 +26,7 @@
 - Deixar 1 linha vazia no final de cada arquivo
 - Prefira aspas simples `'` ao invés de duplas `"`
 - Para acesso de índices múltiplos, evite `aList[ nI, nJ ]`. Use `aList[ nI, nJ ]`
-
-### Redundância
-
-- Não faça `== .T.`
-
-### Operadores
-
+- Funções **não** devem receber mais que 6 parâmetros
+- Evite aninhamentos com mais de 3 statements (exemplo: `If` dentro de `If` dentro de `If`)
 - Use `!=` ao invés de `<>`
-
+- Não faça `== .T.`
