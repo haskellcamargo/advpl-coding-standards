@@ -25,7 +25,7 @@
 - Deixar 1 linha em branco para cada *statement*, exceto conjuntos de *statements*
 - Deixar 1 linha vazia no final de cada arquivo
 - Prefira aspas simples `'` ao invés de duplas `"`
-- Para acesso de índices múltiplos, evite `aList[ nI, nJ ]`. Use `aList[ nI, nJ ]`
+- Para acesso de índices múltiplos, evite `aList[ nI ][ nJ ]`. Use `aList[ nI, nJ ]`
 - Funções **não** devem receber mais que 6 parâmetros
 - Evite aninhamentos com mais de 3 statements (exemplo: `If` dentro de `If` dentro de `If`)
 - Use `!=` ao invés de `<>`
