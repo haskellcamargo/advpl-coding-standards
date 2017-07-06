@@ -2,12 +2,11 @@
 
 ### Arquivo
 
-- A extensão deve ser minúscula (exemplo: `.prw`)
+- A extensão deve ser minúscula (exemplo: `.prw`, `.apw`)
 
 ### Estilo
 
-- Espaços ao invés de tabs
-- 3 espaços e indentação contextual
+- Tabs somente para indentação, não para separação
 - Sempre use notação húngara em nomes de variáveis
 - Evite nomes de variáveis como `nX` ou `nY` (exceto para índices). Seja mais descritivo
 - Palavras-chave da linguagem devem usar **UpperCamelCase** (exemplos: `If`, `EndIf`, `While`)
@@ -30,3 +29,5 @@
 - Evite aninhamentos com mais de 3 statements (exemplo: `If` dentro de `If` dentro de `If`)
 - Use `!=` ao invés de `<>`
 - Não faça `== .T.`
+- Substitua `If` dentro de `If` por `.And.`
+- Use `!` ao invés de `.Not.`
