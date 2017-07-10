@@ -14,6 +14,7 @@
 - Ao terminar uma instrução `For`, prefira `Next <variable>` ao invés de somente `Next`
 - Nomes de variáveis locais devem ser em **lowerCamelCase** (exemplos: `cName`, `nAge`)
 - Nomes de funções em notação húngara devem usar **lowerCamelCase** (exemplo: `aAdd`)
+- Use as variáveis com nomes iguais em tamanho e caixa (não faça `thisIsMyVariable` e `THISISMYVARI`)
 - Nomes de funções sem notação húngara devem usar **UpperCamelCase** (exemplo: `RetSqlName`)
 - Deve haver 1 espaço entre os argumentos de função, blocos e arrays (exemplo: `RetSqlName( 'STJ' )`)
 - Deve haver 1 espaço após cada vírgula (exemplo: `{ 1, 2, 3 }`)
@@ -31,5 +32,13 @@
 - Evite aninhamentos com mais de 3 statements (exemplo: `If` dentro de `If` dentro de `If`)
 - Use `!=` ao invés de `<>`
 - Não faça `== .T.`
-- Substitua `If` dentro de `If` por `.And.`
 - Use `!` ao invés de `.Not.`
+
+## Redundância
+
+- Substitua `If` dentro de `If` por `.And.`
+
+## Funcionamento
+
+- Lembre-se de, ao criar uma tabela temporária, fechá-la com `dbCloseArea`
+- Lembre-se de fechar o _handler_ para o arquivo com `fClose` ao usar `fOpen`
