@@ -18,6 +18,7 @@
 - Nomes de funções sem notação húngara devem usar **UpperCamelCase** (exemplo: `RetSqlName`)
 - Deve haver 1 espaço entre os argumentos de função, blocos e arrays (exemplo: `RetSqlName( 'STJ' )`)
 - Deve haver 1 espaço após cada vírgula (exemplo: `{ 1, 2, 3 }`)
+- Deve haver espaço entre parâmetros de funções (use `Call( 1, 2, 3 )` e não `Call(1,2,3)`)
 - Evite ultrapassar 80 colunas horizontalmente. Quebre o código quando necessário
 - Valores lógicos devem usar caixa alta (exemplo: `.F.`)
 - Espaço entre operadores. Use `nValue > nExpected` ao invés de `nValue>nExpected`
@@ -42,3 +43,4 @@
 
 - Lembre-se de, ao criar uma tabela temporária, fechá-la com `dbCloseArea`
 - Lembre-se de fechar o _handler_ para o arquivo com `fClose` ao usar `fOpen`
+- Quando deslocar para outro registro utilizando `dbSkip`, garanta estar posicionado na tabela desejada, caso contrário utilize `TABLE->( dbSkip() )` ou então utilize `dbSelectArea( TABLE )` antes do `dbSkip()`
