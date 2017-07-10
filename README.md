@@ -10,6 +10,8 @@
 - Sempre use notação húngara em nomes de variáveis
 - Evite nomes de variáveis como `nX` ou `nY` (exceto para índices). Seja mais descritivo
 - Palavras-chave da linguagem devem usar **UpperCamelCase** (exemplos: `If`, `EndIf`, `While`)
+- Ao terminar uma instrução `Do While`, prefira `EndDo` ao invés de somente `End`
+- Ao terminar uma instrução `For`, prefira `Next <variable>` ao invés de somente `Next`
 - Nomes de variáveis locais devem ser em **lowerCamelCase** (exemplos: `cName`, `nAge`)
 - Nomes de funções em notação húngara devem usar **lowerCamelCase** (exemplo: `aAdd`)
 - Nomes de funções sem notação húngara devem usar **UpperCamelCase** (exemplo: `RetSqlName`)
